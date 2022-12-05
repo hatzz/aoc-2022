@@ -34,7 +34,7 @@ func sum(s []int) (sum int) {
 }
 
 func main() {
-	file, err := os.ReadFile("calories.txt")
+	file, err := os.ReadFile("../calories.txt")
 
 	if err != nil {
 		panic(err)
